@@ -33,10 +33,8 @@ $ npm run start:prod
 
 - you can run nats server as a docker container by running the following command: `docker run -p 4222:4222 -p 8222:8222 -p 6222:6222 --name nats-server -d nats`
 
-```bash
-## License
-
 ### DevOps checklist
+
 - [ ] Add a health check endpoint
 - [ ] Add a Dockerfile
 - [ ] Add a CI/CD pipeline (Github Actions, Gitlab CI, Jenkins, etc)
@@ -55,11 +53,10 @@ $ npm run start:prod
 - [ ] How do you manage your application configuration?
 - [ ] How do you handle this senario: 2 main services are running, 2 mailer services are running, 1 user service is running. The user service is down, how do you handle this situation?
 
-
 ### DevOps Goals:
 
 - [ ] 2 instans of main services, 3 instans of mailer services, 1 instans of user service must be running.
 
-
+```bash
 nestjs-micro is [MIT licensed](LICENSE).
 ```
