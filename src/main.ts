@@ -8,13 +8,6 @@ import { UserModule } from './user/user.module';
 
 async function bootstrapMain() {
   const app = await NestFactory.create(AppModule);
-  app.connectMicroservice({
-    transport: Transport.NATS,
-    options: {
-      url: 'nats://localhost:4222',
-    },
-  });
-  await app.startAllMicroservices();
   await app.listen(3000);
 }
 
