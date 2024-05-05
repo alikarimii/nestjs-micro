@@ -4,7 +4,7 @@
 
 ## Description
 
-Microservice implementation using NestJS and NatS.
+This project is a simple example of how to implement microservices using NestJS and NATS. [Medium](https://medium.com/@alikarimi20200/implementation-of-nestjs-microservice-with-nats-a035e0acc8c6)
 
 ## Installation
 
